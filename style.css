@@ -4,6 +4,13 @@ body {
     margin: 0;
     font-family: Roboto;
 }
+header{
+    background-color: #1f2937;
+}
+.container{
+    max-width: 960px;
+    margin: auto;
+}
 nav{
     padding: 1.5rem 0;
 }
@@ -22,9 +29,49 @@ nav ul li:first-child {
 
 nav ul li a {
     text-decoration: none;
+    color: #e5e7eb;
 }
 
 nav ul li .header-logo {
     font-weight: 500;
-    font-size: 1.125rem;
+    font-size: 1.5rem;
+    color: #f9faf8;
+}
+.hero{
+    display: flex;
+    padding: 80px 0;
+}
+.hero .text-container, .hero .image-container{
+    min-width: 50%;
+}
+.hero .image-container{
+    background-color: #eeeeee50;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.hero .image-container p{
+    color: #e5e7eb;
+}
+.hero .text-container h1{
+    font-size: 3rem;
+    line-height: 1;
+    margin-bottom: 0;
+    font-weight: 900;
+    color: #f9faf8;
+}
+.hero .text-container p{
+    margin-top: 0;
+    font-size: 18px;
+    color: #e5e7eb;
+}
+input[type=button]{
+    border: 0;
+    font-family: inherit;
+    font-size: 1rem;
+    padding: 0.5rem 2rem;
+    border-radius: 6px;
+    color: #e5e7eb;
+    background-color: #3882f6;
 }
